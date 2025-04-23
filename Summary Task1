@@ -1,0 +1,17 @@
+# Elevated-Labs
+Summary of Customer Behavior Analysis : Data Cleaning and Handling
+
+Handled Missing Values
+Filled missing Income values with median by Education level.
+Dropped rows with invalid ages (outside 18–100).
+Standardized Categorical Data
+Mapped Education to ordinal levels (Basic -> PhD).
+Simplified Marital_Status to Partner/Single/Separated.
+Derived Key Features
+Calculated Age from Year_Birth.
+Created Total_Children (sum of Kidhome + Teenhome).
+Added Is_Partner flag (1/0) and Income_Group (Low/Medium/High/Elite).
+Optimized Data Structure
+Removed duplicates and irrelevant columns (Year_Birth).
+Converted data types for efficiency (e.g., int8 for age/children).
+Saved as a compressed CSV for analytics/visualization.
