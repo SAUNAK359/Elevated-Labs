@@ -1,0 +1,20 @@
+# Elevated-Labs
+
+Customer Behavior Analysis Data CLeaning and handling
+Input dataset on Kaggle
+/kaggle/input/customer-personality-analysis/marketing_campaign.csv
+Output on kaggle
+/kaggle/working/cleaned_customer_data.csv
+
+Link to website 
+https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+
+# Data Processing & Analysis 
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+
+# Compression (for efficient CSV export)
+gzip>=1.0.0
